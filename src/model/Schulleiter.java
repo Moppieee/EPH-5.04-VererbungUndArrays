@@ -6,8 +6,6 @@ package model;
 public class Schulleiter extends Persona{
 
     //Attribute
-    private String name;
-    private int alter;
     private String besoldungsGruppe;
 
     //Referenzen
@@ -27,21 +25,6 @@ public class Schulleiter extends Persona{
         this.besoldungsGruppe = besoldungsGruppe;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAlter() {
-        return alter;
-    }
-
-    public void setAlter(int alter) {
-        this.alter = alter;
-    }
 
     public String getBesoldungsGruppe() {
         return besoldungsGruppe;
@@ -51,25 +34,8 @@ public class Schulleiter extends Persona{
         this.besoldungsGruppe = besoldungsGruppe;
     }
 
-    /**
-     * Ein Kurs wird der Menge der Kurse hinzugefügt.
-     * Da wir auf der Datenstruktur Array arbeiten und diese eine statische Größe hat, müssen wir tricksen.
-     * Überlegt euch etwas kluges!
-     * @param neuerKurs
-     */
-    public void addKurs(Kurs neuerKurs){
-        //TODO Hinzufügen eines Kurses, den ein Schulleiter unterrichten muss.
-    }
 
-    /**
-     * Ein Fach wird der Menge der unterrichtenden Fächer hinzugefügt.
-     * Da wir auf der Datenstruktur Array arbeiten und diese eine statische Größe hat, müssen wir tricksen.
-     * Überlegt euch etwas kluges!
-     * @param neuesFach
-     */
-    public void addFach(Unterrichtsfach neuesFach){
-        //TODO Hinzufügen eines Faches, das ein Schulleiter unterrichten kann.
-    }
+
 
     /**
      * Einem Schüler wird ein Tadel hinzugefügt.
@@ -80,14 +46,5 @@ public class Schulleiter extends Persona{
         //TODO Umsetzung dafür, dass ein Schulleiter einem Schüler einen Tadel geben kann.
     }
 
-    /**
-     * Methode erstellt aus den Informationen zum Schulleiter (Name, Alter, Besoldungsgruppe, Kurse, Fächer) eine kompakte Information
-     * und gibt diese als String zurück.
-     * @return
-     */
-    public String getInfo(){
-        String info = "";
-        //TODO Kompakte Zeichenkette zu den Informationen eines Schulleiters - gut lesbar!
-        return info;
-    }
+
 }
