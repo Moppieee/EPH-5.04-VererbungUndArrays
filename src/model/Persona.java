@@ -14,6 +14,8 @@ public class Persona {
         this.alter = alter;
     }
 
+
+
     public String getName() {
         return name;
     }
