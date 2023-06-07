@@ -20,8 +20,7 @@ public class Schulleiter extends Persona{
      * @param besoldungsGruppe
      */
     public Schulleiter(String name, int alter, String besoldungsGruppe) {
-        this.name = name;
-        this.alter = alter;
+
         this.besoldungsGruppe = besoldungsGruppe;
     }
 

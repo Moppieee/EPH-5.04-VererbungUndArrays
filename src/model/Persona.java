@@ -14,6 +14,8 @@ public class Persona {
         this.alter = alter;
     }
 
+    public Persona() {
+    }
 
 
     public String getName() {
@@ -34,7 +36,12 @@ public class Persona {
 
 
     public void addKurs(Kurs neuerKurs){
-        //TODO Hinzufügen eines Kurses, den ein Lehrer unterrichten muss.
+
+        Kurs[] gold = new Kurs[kurse.length + 1];
+        for(int i = 0; i < kurse.length; i++){
+            gold[i] = kurse[i];
+        }
+
     }
 
     public void addFach(Unterrichtsfach neuesFach){

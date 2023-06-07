@@ -46,7 +46,9 @@ public class Kurs {
      * @param neuerSchueler
      */
     public void addSchueler(Schueler neuerSchueler){
-        //TODO Hinzufügen eines Schülers zu einem Kurs.
+
+        //TODO Hinzufügen eines Schülers zu einem Kurs.also das mit folie 17
+
     }
 
     /**
